@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/shad/.config/paru'
+let g:netrw_dirhist_5='/home/shad/.config/awesome/awesome-wm-widgets/volumearc-widget'
+let g:netrw_dirhist_4='/home/shad/.config/awesome/themes/copland'
+let g:netrw_dirhist_3='/home/shad/.config/qutebrowser/bookmarks'
+let g:netrw_dirhist_2='/etc/NetworkManager/system-connections'
+let g:netrw_dirhist_1='/home/shad/.config/mpd'

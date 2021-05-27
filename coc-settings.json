@@ -1,0 +1,63 @@
+{
+  "suggest.noselect": true,
+  "python.jediEnabled": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length 100"],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--max-line-length=100", "--ignore=W605"],
+  "python.autoComplete.addBrackets": true,
+  "coc.preferences.formatOnSaveFiletypes": [],
+  "snippets.ultisnips.enable": true,
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/plugged/vim-snippets/snippets"
+  ],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/custom-snippets",
+  "intelephense.licenceKey": "00JMKSX69F0RDXE",
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "configFile": "./.eslintrc.json"
+  },
+  "html.filetypes": ["html", "blade"],
+  "html.format.enable": true,
+  "explorer.width": 35,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+  "explorer.quitOnOpen": true,
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.includeLanguages": { "blade": "html" },
+  "suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": " פּ ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": "  ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  "
+  }
+}
