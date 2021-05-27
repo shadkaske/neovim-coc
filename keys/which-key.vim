@@ -28,13 +28,11 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 " Single mappings
 let g:which_key_map['.'] = [ ':let @/ = ""'                       , 'no highlight' ]
-let g:which_key_map[';'] = [ ':Commands'                          , 'commands' ]
+let g:which_key_map[';'] = [ ':Telescope commands'                , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                             , 'balance windows' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer'               , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                             , 'split below']
 let g:which_key_map['j'] = [ ':Telescope jumplist'                , 'jump list']
-let g:which_key_map['p'] = [ ':Files'                             , 'search files' ]
-let g:which_key_map['P'] = [ ':GFiles'                            , 'search git files' ]
 let g:which_key_map['q'] = [ 'q'                                  , 'quit' ]
 let g:which_key_map['r'] = [ ':source $MYVIMRC'                   , 'reload config' ]
 let g:which_key_map['u'] = [ ':UndotreeToggle'                    , 'undo tree']
@@ -87,9 +85,8 @@ let g:which_key_map.s = {
       \ 'name' : '+Search' ,
       \ '/' : [':History/'              , 'history'],
       \ ';' : [':Commands'              , 'commands'],
-      \ 'a' : [':Ag'                    , 'text Ag'],
       \ 'b' : [':BLines'                , 'current buffer'],
-      \ 'B' : [':Buffers'               , 'open buffers'],
+      \ 'B' : [':Telescope buffers'     , 'open buffers'],
       \ 'C' : [':BCommits'              , 'buffer commits'],
       \ 'c' : [':Commits'               , 'commits'],
       \ 'f' : [':Files'                 , 'files'],

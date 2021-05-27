@@ -18,7 +18,8 @@ let g:coc_global_extensions = [
       \ 'coc-vimlsp',
       \ 'coc-yaml',
       \ 'coc-prettier',
-      \ 'coc-html'
+      \ 'coc-html',
+      \ 'coc-vetur'
       \ ]
 
 

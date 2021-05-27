@@ -12,8 +12,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'ntpeters/vim-better-whitespace'
     Plug 'justinmk/vim-sneak'
     Plug 'christoomey/vim-tmux-navigator'
-    " Plug 'edkolev/tmuxline.vim'
-    " Plug 'tmux-plugins/vim-tmux-focus-events'
     Plug 'moll/vim-bbye'
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-commentary'
@@ -21,15 +19,11 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'tpope/vim-projectionist'
     Plug 'noahfrederick/vim-composer'
     Plug 'noahfrederick/vim-laravel'
-    " Plug 'ChristianChiarulli/far.vim'
+    Plug 'ChristianChiarulli/far.vim'
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
-    " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    " Plug 'junegunn/fzf.vim'
-    " Plug 'chriskempson/base16-vim'
     Plug 'arcticicestudio/nord-vim'
-    Plug 'joshdick/onedark.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'machakann/vim-highlightedyank'
@@ -41,8 +35,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'godlygeek/tabular'
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-    " Plug 'ryanoasis/vim-devicons'
-    " Plug 'romgrk/barbar.nvim'
+    Plug 'ryanoasis/vim-devicons'
     " Git
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
@@ -51,12 +44,12 @@ call plug#begin('~/.local/share/nvim/plugged')
     " Snippets
     Plug 'honza/vim-snippets'
     " language
-    Plug 'shadkaske/vim-blade', { 'for': ['php', 'blade'] }
     Plug 'Valloric/MatchTagAlways', {'for': ['php', 'html', 'blade']}
     Plug 'vim-vdebug/vdebug', { 'for': ['php'] }
-    Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
     Plug 'janko/vim-test'
+    Plug 'shadkaske/vim-blade', { 'for': ['php', 'blade'] }
     Plug 'baskerville/vim-sxhkdrc'
+    " Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
     " Plug 'vim-python/python-syntax', { 'for': 'python'}
     " Plug 'benmills/vimux'
     " Plug 'othree/html5.vim', { 'for': ['html', 'php'] }
@@ -73,6 +66,13 @@ call plug#begin('~/.local/share/nvim/plugged')
     " Plug 'beanworks/vim-phpfmt', { 'for': ['php'] }
     " Plug 'easymotion/vim-easymotion'
     " Plug 'junegunn/vim-easy-align'
+    " Plug 'romgrk/barbar.nvim'
+    " Plug 'joshdick/onedark.vim'
+    " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    " Plug 'junegunn/fzf.vim'
+    " Plug 'chriskempson/base16-vim'
+    " Plug 'edkolev/tmuxline.vim'
+    " Plug 'tmux-plugins/vim-tmux-focus-events'
 
 call plug#end()
 

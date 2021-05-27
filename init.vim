@@ -25,6 +25,7 @@ source $HOME/.config/nvim/plugin-config/sneak.vim
 source $HOME/.config/nvim/plugin-config/floatterm.vim
 source $HOME/.config/nvim/plugin-config/vdebug.vim
 source $HOME/.config/nvim/plugin-config/coc.vim
+source $HOME/.config/nvim/plugin-config/undotree.vim
 " source $HOME/.config/nvim/plugin-config/fzf.vim
 source $HOME/.config/nvim/plugin-config/telescope.vim
 source $HOME/.config/nvim/plugin-config/fugitive.vim

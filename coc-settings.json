@@ -30,9 +30,12 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-  "explorer.quitOnOpen": true,
+  "explorer.quitOnOpen": false,
   "emmet.showAbbreviationSuggestions": true,
-  "emmet.includeLanguages": { "blade": "html" },
+  "emmet.includeLanguages": {
+      "blade": "html",
+      "vue": "html"
+  },
   "suggest.completionItemKindLabels": {
     "method": "  ",
     "function": "  ",
