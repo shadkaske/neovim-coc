@@ -26,6 +26,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'arcticicestudio/nord-vim'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'edkolev/tmuxline.vim'
     Plug 'machakann/vim-highlightedyank'
     Plug 'chrisbra/Colorizer'
     Plug 'voldikss/vim-floaterm'
@@ -71,7 +72,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     " Plug 'junegunn/fzf.vim'
     " Plug 'chriskempson/base16-vim'
-    " Plug 'edkolev/tmuxline.vim'
     " Plug 'tmux-plugins/vim-tmux-focus-events'
 
 call plug#end()
