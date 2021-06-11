@@ -30,9 +30,10 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 let g:which_key_map['.'] = [ ':let @/ = ""'                       , 'no highlight' ]
 let g:which_key_map[';'] = [ ':Telescope commands'                , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                             , 'balance windows' ]
-let g:which_key_map['e'] = [ ':CocCommand explorer'               , 'explorer' ]
+let g:which_key_map['e'] = [ ':NvimTreeToggle'                    , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                             , 'split below']
 let g:which_key_map['j'] = [ ':Telescope jumplist'                , 'jump list']
+let g:which_key_map['m'] = [ ':MaximizerToggle'                   , 'toggle maximizer']
 let g:which_key_map['q'] = [ 'q'                                  , 'quit' ]
 let g:which_key_map['r'] = [ ':source $MYVIMRC'                   , 'reload config' ]
 let g:which_key_map['u'] = [ ':UndotreeToggle'                    , 'undo tree']
@@ -46,7 +47,7 @@ let g:which_key_map.a = {
       \ 'name' : '+Actions' ,
       \ ';' : [':normal A;'                         , 'append semicolon'],
       \ 'c' : [':ColorToggle'                       , 'colorizer'],
-      \ 'e' : [':CocCommand explorer'               , 'explorer'],
+      \ 'e' : [':NvimTreeToggle'               , 'explorer'],
       \ 'h' : [':nohl'                              , 'remove search highlight'],
       \ 'l' : [':set list!'                         , 'toggle list characters'],
       \ 'm' : ['execute "set colorcolumn=" . (&colorcolumn == "" ? "80" : "")' , 'toggle color column'],
@@ -54,6 +55,11 @@ let g:which_key_map.a = {
       \ 'r' : [':set cursorline!'                   , 'toggle cursor line'],
       \ 't' : [':FloatermToggle'                    , 'terminal'],
       \ 'w' : [':StripWhitespace'                   , 'strip whitespace'],
+      \ }
+
+" A for Artisan Commands
+let g:which_key_map.A = {
+        \ 'name' : '+Artisan',
       \ }
 
 " b is for buffer

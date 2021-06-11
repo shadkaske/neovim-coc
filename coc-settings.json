@@ -16,6 +16,7 @@
   ],
   "snippets.userSnippetsDirectory": "~/.config/nvim/custom-snippets",
   "intelephense.licenceKey": "00JMKSX69F0RDXE",
+  "eslint.packageManager": "yarn",
   "eslint.run": "onSave",
   "eslint.autoFixOnSave": true,
   "eslint.options": {
@@ -23,14 +24,6 @@
   },
   "html.filetypes": ["html", "blade"],
   "html.format.enable": true,
-  "explorer.width": 35,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false,
-  "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
-  },
-  "explorer.quitOnOpen": false,
   "emmet.showAbbreviationSuggestions": true,
   "emmet.includeLanguages": {
       "blade": "html",

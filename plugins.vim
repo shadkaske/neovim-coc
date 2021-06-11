@@ -35,8 +35,10 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mbbill/undotree'
     Plug 'godlygeek/tabular'
     Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'kyazdani42/nvim-tree.lua'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'ryanoasis/vim-devicons'
+    Plug 'szw/vim-maximizer'
     " Git
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
