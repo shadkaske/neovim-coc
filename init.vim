@@ -29,7 +29,7 @@ source $HOME/.config/nvim/plugin-config/undotree.vim
 source $HOME/.config/nvim/plugin-config/telescope.vim
 source $HOME/.config/nvim/plugin-config/fugitive.vim
 source $HOME/.config/nvim/plugin-config/maximizer.vim
-source $HOME/.config/nvim/plugin-config/nvim-tree.vim
+" source $HOME/.config/nvim/plugin-config/nvim-tree.vim
 " source $HOME/.config/nvim/plugin-config/fzf.vim
 " source $HOME/.config/nvim/plugin-config/farr.vim
 " source $HOME/.config/nvim/plugin-config/phpfmt.vim

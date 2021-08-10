@@ -1,5 +1,5 @@
 let g:nvim_tree_width = 40
-let g:nvim_tree_auto_open = 1
+let g:nvim_tree_auto_open = 0
 let g:nvim_tree_auto_close = 1
 let g:nvim_tree_lsp_diagnostics = 1
 let g:nvim_tree_disable_window_picker = 1
