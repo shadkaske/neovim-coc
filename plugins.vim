@@ -39,6 +39,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'ryanoasis/vim-devicons'
     Plug 'szw/vim-maximizer'
+    Plug 'pearofducks/ansible-vim'
     " Git
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
@@ -52,6 +53,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'janko/vim-test'
     Plug 'shadkaske/vim-blade', { 'for': ['php', 'blade'] }
     Plug 'baskerville/vim-sxhkdrc'
+    Plug 'joshdick/onedark.vim'
     " Plug 'arnaud-lb/vim-php-namespace', {'for': 'php'}
     " Plug 'vim-python/python-syntax', { 'for': 'python'}
     " Plug 'benmills/vimux'
