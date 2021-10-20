@@ -30,7 +30,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 let g:which_key_map['.'] = [ ':let @/ = ""'                       , 'no highlight' ]
 let g:which_key_map[';'] = [ ':Telescope commands'                , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                             , 'balance windows' ]
-let g:which_key_map['e'] = [ ':NvimTreeToggle'                    , 'explorer' ]
+let g:which_key_map['e'] = [ ':CocCommand explorer'               , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                             , 'split below']
 let g:which_key_map['j'] = [ ':Telescope jumplist'                , 'jump list']
 let g:which_key_map['m'] = [ ':MaximizerToggle'                   , 'toggle maximizer']

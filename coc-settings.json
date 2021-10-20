@@ -55,5 +55,7 @@
     "constructor": "  ",
     "value": "  ",
     "enumMember": "  "
-  }
+  },
+  "explorer.file.reveal.auto": false,
+  "explorer.icon.enableNerdfont": true
 }
